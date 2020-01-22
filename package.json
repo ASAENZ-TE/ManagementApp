@@ -1,0 +1,27 @@
+{
+  "name": "ManagementApp",
+  "version": "1.0.0",
+  "description": "An app to manage all employees",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASAENZ-TE/ManagementApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASAENZ-TE/ManagementApp/issues"
+  },
+  "homepage": "https://github.com/ASAENZ-TE/ManagementApp#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "console.table": "^0.10.0",
+    "inquirer": "^7.0.3",
+    "mysql": "^2.18.0"
+  }
+}
